@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import SimpleDropzone from "./components/Dropzone";
+import DropzoneDialogExample from "./components/DropzoneWithDialog";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>POC React-Dropzone with material ui</h1>
+      {/* <h2>Simple Dropzone</h2>
+      <SimpleDropzone /> */}
+      <hr />
+      <h2>Dropzone with dialog</h2>
+      <DropzoneDialogExample />
     </div>
   );
 }
